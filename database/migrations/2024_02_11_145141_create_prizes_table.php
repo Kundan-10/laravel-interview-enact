@@ -17,6 +17,7 @@ class CreatePrizesTable extends Migration
             $table->id();
             $table->string('title');
             $table->decimal('probability',10,2)->default(0);
+            $table->integer('quantity')->default(0);
             $table->timestamps();
         });
     }

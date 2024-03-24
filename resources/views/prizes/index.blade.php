@@ -1,10 +1,10 @@
+
+
 @extends('default')
 
 @section('content')
 
-
-    @include('prob-notice')
-
+@include('prob-notice')
 
     <div class="container">
         <div class="row">
